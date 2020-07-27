@@ -9,6 +9,7 @@ li {
 
  body {
 font-family:;/* 1ワードの場合は""は無し */
+width:100%;
 }
 
 .header {
