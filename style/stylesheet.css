@@ -47,13 +47,36 @@ header {
   width:80%;
 }
 .top-container-text {}
-.top-container-text-one {}
-.top-container-text-two {}
-.top-container-text-three {}
-.top-container-text-four {}
-.top-container-text-five {}
-.top-container-menu {}
-.top-container-menu a{}
+.top-container-text-one {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.top-container-text-two {
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 103px;
+}
+.top-container-text-three {
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 103px;
+}
+.top-container-text-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+.top-container-menu {
+  text-align: center;
+}
+.top-container-menu a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  padding-left:190px;
+  padding-right:190px;
+}
 
 
 
