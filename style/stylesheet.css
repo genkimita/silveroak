@@ -51,26 +51,35 @@ header {
 .top-container-text {
   margin-left: 110px;
   margin-top:300px;
+  margin-bottom:120px;
 }
 .top-container-text-one {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  /*  */
+  padding-bottom:60px;
 }
 .top-container-text-two {
   font-weight: 400;
   font-size: 86px;
   line-height: 103px;
+  /*  */
+  padding-bottom:30px;
 }
 .top-container-text-three {
   font-weight: 400;
   font-size: 86px;
   line-height: 103px;
+  /*  */
+  padding-bottom:30px;
 }
 .top-container-text-four {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+  /*  */
+  padding-bottom:30px;
 }
 .top-container-menu {
   text-align: center;
