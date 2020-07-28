@@ -85,6 +85,7 @@ width:100%;
 }
 .top-container-menu {
   text-align: center;
+  border-top:2px solid #ffffff ;
 }
 .top-container-menu a{
   font-weight: 400;
