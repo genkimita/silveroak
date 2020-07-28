@@ -38,12 +38,22 @@ header {
 .top {
   width:100%;
   height:920px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/top1.jpg) center / auto 100% no-repeat;
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/top1.jpg) center / auto 920px no-repeat;
+  background-size: cover;
   /*  */
   color:#ffffff;
 }
-
-
+.top-container {
+  width:80%;
+}
+.top-container-text {}
+.top-container-text-one {}
+.top-container-text-two {}
+.top-container-text-three {}
+.top-container-text-four {}
+.top-container-text-five {}
+.top-container-menu {}
+.top-container-menu a{}
 
 
 
