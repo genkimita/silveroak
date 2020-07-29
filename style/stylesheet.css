@@ -32,15 +32,34 @@ width:100%;
 }
 .header-top-two {}
 .header-top-three {}
-.header-top-four {}
-.header-top-five {}
+.header-top-four {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 40px;
+}
+.header-top-five {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
 .header-bottom {}
 .header-bottom-logo {}
 .header-bottom-menu {}
   .header-bottom-menu-list {
-
   }
-.header-bottom-support {}
+  .header-bottom-menu-list li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+  }
+.header-bottom-support {
+}
+.header-bottom-support li{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
 
 
 .top {
