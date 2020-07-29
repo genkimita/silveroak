@@ -46,6 +46,7 @@ width:100%;
 .header-bottom-logo {}
 .header-bottom-menu {}
   .header-bottom-menu-list {
+    display: flex;
   }
   .header-bottom-menu-list li{
     font-weight: 400;
@@ -53,6 +54,7 @@ width:100%;
     line-height: 80px;
   }
 .header-bottom-support {
+  display: flex;
 }
 .header-bottom-support li{
   font-weight: 400;
