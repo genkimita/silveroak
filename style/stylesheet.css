@@ -58,7 +58,9 @@ width:100%;
   /*  */
   border-bottom:1px solid #ffffff;
 }
-.header-bottom {}
+.header-bottom {
+  display: flex;
+}
 .header-bottom-logo {}
 .header-bottom-menu {}
   .header-bottom-menu-list {
