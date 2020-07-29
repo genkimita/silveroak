@@ -83,7 +83,7 @@ width:100%;
 .header-bottom-support {
   display: flex;
 }
-.header-bottom-support li{
+.header-bottom-support-list li{
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
