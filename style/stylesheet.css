@@ -18,7 +18,9 @@ width:100%;
   background-color:black;
   color:#ffffff;
 }
-.header-container {}
+.header-container {
+  width:100%;
+}
 .header-top {
   width:100%;
   padding-top:10px;
