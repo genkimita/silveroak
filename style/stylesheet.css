@@ -72,8 +72,12 @@ width:100%;
 .header-bottom {
   display: flex;
 }
-.header-bottom-logo {}
-.header-bottom-menu {}
+.header-bottom-logo {
+  width:20%;
+}
+.header-bottom-menu {
+  width:60%;
+}
   .header-bottom-menu-list {
     display: flex;
   }
@@ -84,6 +88,7 @@ width:100%;
   }
 .header-bottom-support {
   display: flex;
+  width:20%;
 }
 .header-bottom-support-list li{
   font-weight: 400;
