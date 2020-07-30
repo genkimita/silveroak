@@ -189,7 +189,9 @@ height:1340px;
   width:1320px;
   margin: 0 auto;
   /*  */
+  background-color:;
   background: url(shop-silver-oak-wines-2016-alex);
+  background-size: cover;
 }
 .product-detail-zero {
   width:40%;
