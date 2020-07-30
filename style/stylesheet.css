@@ -241,8 +241,16 @@ width:100%;
   width:550px;
   float:right;
 }
-.visit-left-one {}
-.visit-left-two {}
+.visit-left-one {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.visit-left-two {
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 68px;
+}
 .visit-left-three {
   width:550px;
   height:730px;
