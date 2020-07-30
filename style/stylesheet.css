@@ -79,23 +79,16 @@ width:100%;
   width:60%;
   margin: 0 auto;
 }
-  .header-bottom-menu-list {
+.header-bottom-menu-list {
     display: flex;
+    width:20%;
   }
-  .header-bottom-menu-list li{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 80px;
-  }
-.header-bottom-support {
-  display: flex;
-  width:20%;
-}
-.header-bottom-support-list li{
+.header-bottom-menu-list li{
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
-}
+  line-height: 21px;
+  }
+
 
 
 
@@ -195,7 +188,7 @@ height:1340px;
   margin: 0 auto;
   /*  */
   background-color:rgb(242, 240, 236);
-  
+
 }
 .product-detail-zero {
   width:40%;
