@@ -160,8 +160,7 @@ width:100%;
 
 
 .product {
-height:1340px;
-  background-color:rgb(242, 240, 236);
+  width:100%;
 }
 .product-title-one {
   font-weight: 500;
@@ -184,12 +183,12 @@ height:1340px;
   margin: 0 auto;
 }
 .product-detail {
-  width:1320px;
+  width:80%;
   height:1000px;
   margin: 0 auto;
   /*  */
   background-color:rgb(242, 240, 236);
-
+  vertical-align: bottom;
 }
 .product-detail-zero {
   width:40%;
