@@ -242,9 +242,11 @@ width:100%;
 }
 .visit-left-one {}
 .visit-left-two {}
-img.visit-left-three {
-  width:100%;
+.visit-left-three {
+  width:550px;
   height:730px;
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-oakville.jpg);
+  background-size: cover;
 }
 .visit-right {
   width:50%;
@@ -253,12 +255,11 @@ img.visit-left-three {
   width:530px;
   height:680px;
   /*  */
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/visit-healdsburg-crop-600x400.jpg);
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-av-1.jpg);
   background-size: cover;
   /*  */
   top: 350px;
   left: 20px;
-
 }
 
 
