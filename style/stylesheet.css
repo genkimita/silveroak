@@ -177,6 +177,7 @@ height:1340px;
   /*  */
   width:75%;
   margin: 0 auto;
+  padding-top:120px;
 }
 .product-title-two {
   font-weight: 400;
@@ -193,7 +194,7 @@ height:1340px;
   /*  */
   background-color:rgb(242, 240, 236);
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/image/shop-silver-oak-wines-2016-alex.png);
-  
+
 }
 .product-detail-zero {
   width:40%;
@@ -204,15 +205,19 @@ height:1340px;
   font-size: 12px;
   line-height: 14px;
   color:rgb(131, 131, 131);
+  /*  */
+  margin-bottom:60px;
 }
 .product-detail-two {
   font-weight: 400;
   font-size: 51px;
   line-height: 68px;
   color:rgb(0, 0, 0);
+  /*  */
+  margin-bottom:45px;
 }
 .product-detail-three {
-  width:1320px;
+  margin-bottom:40px;
 }
 .product-detail-three-list {}
 .product-detail-three-list li{
