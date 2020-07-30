@@ -230,7 +230,56 @@ width:100%;
 
 
 
+.visit {
+  height:1180px;
+  display: flex;
+}
+.visit-left {
+  width:50%;
+}
+.visit-left-box {
+  width:550px;
+}
+.visit-left-one {}
+.visit-left-two {}
+img.visit-left-three {
+  width:100%;
+  height:730px;
+}
+.visit-right {
+  width:50%;
+}
+.visit-right-box {
+  width:530px;
+  height:680px;
+  /*  */
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/visit-healdsburg-crop-600x400.jpg);
+  background-size: cover;
+  /*  */
+  top: 350px;
+  left: 20px;
+
+}
+
+
+
+
 
 .footer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
