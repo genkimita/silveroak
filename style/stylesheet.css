@@ -295,23 +295,104 @@ content: ' ';
 
 
 
+.about {
+}
+.about-box {}
+.about-box-text {}
+.about-box-text-one {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 58px;
+}
+.about-box-text-two {
+  font-weight: 200;
+  font-size: 44px;
+  line-height: 58px;
+  font-family:"GT Super Display";
+}
+.about-box-text-three {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.about-box-text-four {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.about-box-text-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.about-box-text-six {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.about-box-text-seven {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
+
+.futured {}
+.futured-box-text-one {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 50px;
+}
+.futured-box-text-two-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.futured-box-text-two-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.futured-box-text-three-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.futured-box-text-three-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.futured-box-text-four-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.futured-box-text-four-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
 
 
 .footer {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {}
