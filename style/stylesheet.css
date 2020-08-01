@@ -398,6 +398,9 @@ content: ' ';
   /*  */
   height:140px;
 }
+p.about-text-category {
+  vertical-align : middle;
+}
 
 
 
