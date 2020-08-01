@@ -273,7 +273,7 @@ position: absolute;
 top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
 }
-.visit-left-three-text {
+.visit-left-three-text p,.visit-left-three-text a{
   color:#ffffff;
 }
 .visit-left-three-text-1 {
@@ -291,7 +291,6 @@ content: ' ';
   font-size: 14px;
   line-height: 14px;
 }
-
 .visit-right {
   width:50%;
 }
@@ -312,7 +311,7 @@ position: absolute;
 top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
 }
-.visit-right-text {
+.visit-right-text p,.visit-right-text a{
   color:#ffffff;
 }
 .visit-right-text-1 {
