@@ -384,7 +384,9 @@ content: ' ';
 
 
 
-.futured {}
+.futured {
+  height:1255px;
+}
 .futured-box {
   width:1320px;
   margin: 0 auto;
@@ -448,6 +450,7 @@ content: ' ';
 
 
 .explore {
+  height:840px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
 }
@@ -510,7 +513,14 @@ content: ' ';
 
 
 .footer {
+  height:535px;
   background-color:rgb(0, 0, 0);
+}
+.footer-box {
+  width:66%;
+}
+.footer-left {
+  width:50%;
 }
 .footer-left-one {
   font-weight: 400;
@@ -533,7 +543,9 @@ li.footer-valley {
 li.footer-valley-name {
   color:rgb(128, 128, 128);
 }　
-
+.footer-right {
+  width:50%;
+}
 .footer-right p{
   font-weight: 400;
   font-size: 16px;
