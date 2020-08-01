@@ -248,6 +248,7 @@ width:100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  color:rgb(126, 126, 126);
   /*  */
   margin-top:170px;
   margin-bottom:60px;
@@ -273,7 +274,7 @@ top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
 }
 .visit-left-three-text {
-
+  color:#ffffff;
 }
 .visit-left-three-text-1 {
   font-weight: 500;
@@ -311,6 +312,9 @@ position: absolute;
 top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
 }
+.visit-right-text {
+  color:#ffffff;
+}
 .visit-right-text-1 {
   font-weight: 500;
   font-size: 12px;
@@ -332,7 +336,9 @@ content: ' ';
 .about {
 }
 .about-box {}
-.about-box-text {}
+.about-box-text {
+  color:#ffffff;
+}
 .about-box-text-one {
   font-weight: 400;
   font-size: 44px;
@@ -478,6 +484,12 @@ content: ' ';
   font-size: 14px;
   line-height: 26px;
 }
+li.footer-valley {
+  color:#ffffff;
+}
+li.footer-valley-name {
+  color:rgb(128, 128, 128);
+}　
 
 .footer-right p{
   font-weight: 400;
