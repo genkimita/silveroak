@@ -459,8 +459,8 @@ content: ' ';
   width:670px;
   height:605px;
   /*  */
-  margin-top:115px;
-  margin-left: 180px;
+  top:115px;
+  left: 180px;
 }
 .explore-box-text-three {
   font-weight: 400;
