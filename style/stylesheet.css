@@ -334,7 +334,10 @@ content: ' ';
 
 .about {
 }
-.about-box {}
+.about-box {
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/g2g-menu-night-harvest-650x650.jpg);
+  background-size: cover;
+}
 .about-box-text {
   color:#ffffff;
 }
@@ -383,6 +386,11 @@ content: ' ';
   font-size: 37px;
   line-height: 50px;
 }
+.futured-box-text-two {}
+.futured-box-text-two-img {
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-summer-dock-600x400.jpg);
+  background-size: cover;
+}
 .futured-box-text-two-1 {
   font-weight: 400;
   font-size: 16px;
@@ -392,6 +400,11 @@ content: ' ';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+}
+.futured-box-text-three {}
+.futured-box-text-three-img{
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-lab-beeker-600x400.jpg);
+  background-size: cover;
 }
 .futured-box-text-three-1 {
   font-weight: 400;
@@ -403,6 +416,11 @@ content: ' ';
   font-size: 16px;
   line-height: 16px;
 }
+.futured-box-text-four {}
+.futured-box-text-four-img {
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-magnums-600x400.jpg);
+  background-size: cover;
+}
 .futured-box-text-four-1 {
   font-weight: 400;
   font-size: 16px;
@@ -413,52 +431,64 @@ content: ' ';
   font-size: 16px;
   line-height: 16px;
 }
-.explore-boxg-text-three {
+
+
+.explore {
+  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
+  background-size: cover;
+}
+.explore-box {
+  background-color:#ffffff;
+  width:670px;
+  height:605px;
+  /*  */
+  margin-top:115px;
+  margin-left: 180px;
+}
+.explore-box-text-three {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
 }
-.explore-boxg-text-four {
+.explore-box-text-four {
   font-weight: ;font-size: px;line-height: px;
 }
-
-
-.explore-boxg-text-one {
+.explore-box-text-one {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
 }
-.explore-boxg-text-two {
+.explore-box-text-two {
   font-weight: 400;
   font-size: 51px;
   line-height: 68px;
 }
-.explore-boxg-text-three {
+.explore-box-text-three {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
 }
-.explore-boxg-text-four {
+.explore-box-text-four {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
-.explore-boxg-text-five {
+.explore-box-text-five {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
-.explore-boxg-text-six {
+.explore-box-text-six {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
-.explore-boxg-text-seven {
+.explore-box-text-seven {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
-.explore-boxg-text-eight {
+.explore-box-text-eight {
   font-weight: 400;
   font-size: 18px;
   line-height: 31px;
@@ -466,7 +496,7 @@ content: ' ';
 
 
 .footer {
-
+  background-color:rgb(0, 0, 0);
 }
 .footer-left-one {
   font-weight: 400;
@@ -509,7 +539,9 @@ li.footer-valley-name {
 
 
 
-.copyright {}
+.copyright {
+  background-color:rgb(21, 21, 21);
+}
 .copyright-box {}
 .copyright-box a{
   color:rgb(150, 150, 150);
