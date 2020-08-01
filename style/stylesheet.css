@@ -341,9 +341,14 @@ content: ' ';
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/g2g-menu-night-harvest-650x650.jpg);
   background-size: cover;
   margin: 0 auto;
+  margin-top:175px;
 }
 .about-box-text {
+  width:66.666%;
+  margin: 0 auto;
+  /*  */
   color:#ffffff;
+  padding-top:170px;
 }
 .about-box-text-one {
   font-weight: 400;
@@ -355,31 +360,43 @@ content: ' ';
   font-size: 44px;
   line-height: 58px;
   font-family:"GT Super Display";
+  /*  */
+  padding-bottom:100px;
 }
 .about-box-text-three {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  /*  */
+  height:30px;
 }
 .about-box-text-four {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  /*  */
+  height:140px;
 }
 .about-box-text-five {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  /*  */
+  height:140px;
 }
 .about-box-text-six {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  /*  */
+  height:140px;
 }
 .about-box-text-seven {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  /*  */
+  height:140px;
 }
 
 
