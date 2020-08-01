@@ -342,6 +342,7 @@ content: ' ';
   background-size: cover;
   margin: 0 auto;
   margin-top:175px;
+  margin-bottom:175px;
 }
 .about-box-text {
   width:66.666%;
@@ -420,6 +421,8 @@ p.about-text-category {
   height:285px;
 }
 .futured-box-text-two-img {
+  width:425px;
+  height:285px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-summer-dock-600x400.jpg);
   background-size: cover;
 }
@@ -437,6 +440,8 @@ p.about-text-category {
   height:285px;
 }
 .futured-box-text-three-img{
+  width:425px;
+  height:285px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-lab-beeker-600x400.jpg);
   background-size: cover;
 }
@@ -454,6 +459,8 @@ p.about-text-category {
   height:285px;
 }
 .futured-box-text-four-img {
+  width:425px;
+  height:285px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-magnums-600x400.jpg);
   background-size: cover;
 }
