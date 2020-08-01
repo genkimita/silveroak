@@ -333,10 +333,14 @@ content: ' ';
 
 
 .about {
+  width:100%;
 }
 .about-box {
+  width:1320px;
+  height:1135px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/g2g-menu-night-harvest-650x650.jpg);
   background-size: cover;
+  margin: 0 auto;
 }
 .about-box-text {
   color:#ffffff;
@@ -381,12 +385,17 @@ content: ' ';
 
 
 .futured {}
+.futured-box {
+  width:1320px;
+}
 .futured-box-text-one {
   font-weight: 400;
   font-size: 37px;
   line-height: 50px;
 }
-.futured-box-text-two {}
+.futured-box-text-two {
+  height:285px;
+}
 .futured-box-text-two-img {
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-summer-dock-600x400.jpg);
   background-size: cover;
@@ -401,7 +410,9 @@ content: ' ';
   font-size: 16px;
   line-height: 16px;
 }
-.futured-box-text-three {}
+.futured-box-text-three {
+  height:285px;
+}
 .futured-box-text-three-img{
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-lab-beeker-600x400.jpg);
   background-size: cover;
@@ -416,7 +427,9 @@ content: ' ';
   font-size: 16px;
   line-height: 16px;
 }
-.futured-box-text-four {}
+.futured-box-text-four {
+  height:285px;
+}
 .futured-box-text-four-img {
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-magnums-600x400.jpg);
   background-size: cover;
