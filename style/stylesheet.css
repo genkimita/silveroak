@@ -511,6 +511,9 @@ li.footer-valley-name {
 
 .copyright {}
 .copyright-box {}
+.copyright-box a{
+  color:rgb(150, 150, 150);
+}
 .copyright-box-one {
   font-weight: 400;
   font-size: 16px;
