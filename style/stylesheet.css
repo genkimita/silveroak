@@ -624,6 +624,7 @@ li.footer-list-1{
 .copyright-box {
   width:66%;
   margin: 0 auto;
+  text-align: center;
 }
 .copyright-box a{
   color:rgb(150, 150, 150);
