@@ -411,6 +411,7 @@ p.about-text-category {
 .futured-box {
   width:1320px;
   margin: 0 auto;
+  margin-bottom:120px;
 }
 .futured-box-text-one {
   font-weight: 400;
@@ -507,8 +508,8 @@ p.about-text-category {
   width:670px;
   height:605px;
   /*  */
-  top:115px;
-  left: 180px;
+  vertical-align : middle;
+  padding-left:130px;
 }
 .explore-box-text-three {
   font-weight: 400;
