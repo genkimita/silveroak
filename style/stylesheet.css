@@ -387,6 +387,7 @@ content: ' ';
 .futured {}
 .futured-box {
   width:1320px;
+  margin: 0 auto;
 }
 .futured-box-text-one {
   font-weight: 400;
