@@ -272,10 +272,29 @@ position: absolute;
 top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
 }
+.visit-left-three-text {
+
+}
+.visit-left-three-text-1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.visit-left-three-text-2 {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 50px;
+}
+.visit-left-three-text-3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
 .visit-right {
   width:50%;
 }
-.visit-right-box {
+.visit-right-one {
   width:530px;
   height:680px;
   /*  */
@@ -286,11 +305,26 @@ content: ' ';
   top: 350px;
   left: 20px;
 }
-.visit-right-box::before {
+.visit-right-one::before {
 background-color: rgba(0,0,0,0.4);/* くろすけ */
 position: absolute;
 top: 0;right: 0;bottom: 0;left: 0;
 content: ' ';
+}
+.visit-right-text-1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.visit-right-text-2 {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 50px;
+}
+.visit-right-text-3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
 }
 
 
