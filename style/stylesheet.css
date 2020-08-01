@@ -518,6 +518,7 @@ content: ' ';
 }
 .footer-box {
   width:66%;
+  display: flex;
 }
 .footer-left {
   width:50%;
