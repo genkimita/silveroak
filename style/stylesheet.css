@@ -284,11 +284,15 @@ content: ' ';
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  /*  */
+  margin-bottom:55px;
 }
 .visit-left-three-text-2 {
   font-weight: 400;
   font-size: 37px;
   line-height: 50px;
+  /*  */
+  margin-bottom:25px;
 }
 .visit-left-three-text-3 {
   font-weight: 400;
@@ -326,11 +330,15 @@ content: ' ';
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  /*  */
+  margin-bottom:55px;
 }
 .visit-right-text-2 {
   font-weight: 400;
   font-size: 37px;
   line-height: 50px;
+  /*  */
+  margin-bottom:25px;
 }
 .visit-right-text-3 {
   font-weight: 400;
