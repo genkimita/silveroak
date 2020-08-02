@@ -276,6 +276,10 @@ content: ' ';
 .visit-left-three-text p,.visit-left-three-text a{
   color:#ffffff;
 }
+.visit-left-three-text {
+  padding-top:430px;
+  padding-left:60px;
+}
 .visit-left-three-text-1 {
   font-weight: 500;
   font-size: 12px;
@@ -313,6 +317,10 @@ content: ' ';
 }
 .visit-right-text p,.visit-right-text a{
   color:#ffffff;
+}
+.visit-right-text {
+  padding-top:430px;
+  padding-left:60px;
 }
 .visit-right-text-1 {
   font-weight: 500;
