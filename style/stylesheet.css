@@ -417,6 +417,8 @@ p.about-text-category {
   font-weight: 400;
   font-size: 37px;
   line-height: 50px;
+  /*  */
+  margin-bottom:60px;
 }
 .futured-box-text-two {
   height:285px;
@@ -438,11 +440,13 @@ p.about-text-category {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 .futured-box-text-two-2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 .futured-box-text-three {
   height:285px;
@@ -464,11 +468,13 @@ p.about-text-category {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 .futured-box-text-three-2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 .futured-box-text-four {
   height:285px;
@@ -490,11 +496,13 @@ p.about-text-category {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 .futured-box-text-four-2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  vertical-align : middle;
 }
 
 
