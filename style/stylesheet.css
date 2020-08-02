@@ -508,6 +508,7 @@ p.about-text-category {
   width:670px;
   height:605px;
   /*  */
+  display: inline-block;
   vertical-align : middle;
   padding-left:130px;
 }
@@ -515,9 +516,6 @@ p.about-text-category {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
-}
-.explore-box-text-four {
-  font-weight: ;font-size: px;line-height: px;
 }
 .explore-box-text-one {
   font-weight: 400;
