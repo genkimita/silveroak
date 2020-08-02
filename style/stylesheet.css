@@ -426,11 +426,13 @@ p.about-text-category {
   font-size: 37px;
   line-height: 50px;
   /*  */
-  margin-bottom:60px;
+  padding-bottom:60px;
+  border-bottom:1px solid rgb(216, 215, 214) ;
 }
 .futured-box-text-two {
   height:285px;
   display: flex;
+  border-bottom:1px solid rgb(216, 215, 214) ;
 }
 .futured-box-text-two-left {
   width:50%;
@@ -459,6 +461,7 @@ p.about-text-category {
 .futured-box-text-three {
   height:285px;
   display: flex;
+  border-bottom:1px solid rgb(216, 215, 214) ;
 }
 .futured-box-text-three-left {
   width:50%;
@@ -487,6 +490,7 @@ p.about-text-category {
 .futured-box-text-four {
   height:285px;
   display: flex;
+  border-bottom:1px solid rgb(216, 215, 214) ;
 }
 .futured-box-text-four-left {
   width:50%;
@@ -518,7 +522,10 @@ p.about-text-category {
   height:840px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
-  vertical-align : middle;
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 .explore-box {
   background-color:#ffffff;
@@ -526,6 +533,7 @@ p.about-text-category {
   height:605px;
   /*  */
   padding-left:130px;
+  margin-left: 180px;
 }
 .explore-box-text-three {
   font-weight: 400;
@@ -546,37 +554,31 @@ p.about-text-category {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
-  border-bottom:1px solid #ffffff ;
 }
 .explore-box-text-four {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  border-bottom:1px solid #ffffff ;
 }
 .explore-box-text-five {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  border-bottom:1px solid #ffffff ;
 }
 .explore-box-text-six {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  border-bottom:1px solid #ffffff ;
 }
 .explore-box-text-seven {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  border-bottom:1px solid #ffffff ;
 }
 .explore-box-text-eight {
   font-weight: 400;
   font-size: 18px;
   line-height: 31px;
-  border-bottom:1px solid #ffffff ;
 }
 
 
