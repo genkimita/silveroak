@@ -522,6 +522,8 @@ p.about-text-category {
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
   /*  */
+}
+.explore-back-image {
   display:table;
 }
 .explore-box {
