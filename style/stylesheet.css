@@ -518,14 +518,13 @@ p.about-text-category {
   height:840px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
+  vertical-align : middle;
 }
 .explore-box {
   background-color:#ffffff;
   width:670px;
   height:605px;
   /*  */
-  display: inline-block;
-  vertical-align : middle;
   padding-left:130px;
 }
 .explore-box-text-three {
