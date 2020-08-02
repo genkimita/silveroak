@@ -536,14 +536,15 @@ p.about-text-category {
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
   /*  */
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 親に */
+  display:table;
 }
 .explore-box {
   background-color:#ffffff;
   width:670px;
   height:605px;
+  /*  */
+  display: table-cell;
+  vertical-align : middle;
   /*  */
   padding-left:130px;
   margin-left: 180px;
