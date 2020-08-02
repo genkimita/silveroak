@@ -518,6 +518,7 @@ p.about-text-category {
 
 
 .explore {
+  width:100%;
   height:840px;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
