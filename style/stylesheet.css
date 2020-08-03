@@ -397,6 +397,10 @@ content: ' ';
   /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 .about-box-text-five {
   font-weight: 400;
@@ -405,6 +409,10 @@ content: ' ';
   /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 .about-box-text-six {
   font-weight: 400;
@@ -413,6 +421,10 @@ content: ' ';
   /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 .about-box-text-seven {
   font-weight: 400;
@@ -421,9 +433,13 @@ content: ' ';
   /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
+  /*  */
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 p.about-text-category {
-  
+
 }
 
 
