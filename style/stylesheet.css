@@ -391,25 +391,39 @@ content: ' ';
   border-bottom:1px solid rgb(158, 146, 147) ;
 }
 .about-box-text-four {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
 }
 .about-box-text-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
 }
 .about-box-text-six {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
 }
 .about-box-text-seven {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /*  */
   height:140px;
   border-bottom:1px solid rgb(158, 146, 147) ;
 }
 p.about-text-category {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
+  
 }
 
 
