@@ -581,45 +581,54 @@ p.about-text-category {
   padding-left:130px;
   margin-left: 180px;
 }
-.explore-box-text-three {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-}
 .explore-box-text-one {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  /*  */
+  margin-top:60px;
 }
 .explore-box-text-two {
   font-weight: 400;
   font-size: 51px;
   line-height: 68px;
+  /*  */
+  margin-bottom:45px;
 }
 .explore-box-text-three {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
+  /*  */
+  margin-bottom:25px;
 }
 .explore-box-text-four {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  /*  */
+  margin-bottom:10px;
 }
 .explore-box-text-five {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  /*  */
+  margin-bottom:10px;
 }
 .explore-box-text-six {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  /*  */
+  margin-bottom:10px;
 }
 .explore-box-text-seven {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  /*  */
+  margin-bottom:50px;
 }
 .explore-box-text-eight {
   font-weight: 400;
