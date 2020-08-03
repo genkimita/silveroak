@@ -569,15 +569,14 @@ p.about-text-category {
   /*  */
 }
 .explore-back-image {
-  display:table;
+  display: flex;
+  justify-content: center;
+  align-items: center;/* 親に */
 }
 .explore-box {
   background-color:#ffffff;
   width:670px;
   height:605px;
-  /*  */
-  display: table-cell;
-  vertical-align : middle;
   /*  */
   padding-left:130px;
   margin-left: 180px;
