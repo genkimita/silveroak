@@ -396,6 +396,7 @@ content: ' ';
 }
 .about-box-text-five {
   height:140px;
+  border-bottom:1px solid rgb(158, 146, 147) ;
 }
 .about-box-text-six {
   height:140px;
