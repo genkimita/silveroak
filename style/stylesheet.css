@@ -476,6 +476,7 @@ p.about-text-category {
 }
 .futured-box-text-two-right {
   width:50%;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;/* 親に */
@@ -508,6 +509,7 @@ p.about-text-category {
 }
 .futured-box-text-three-right {
   width:50%;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;/* 親に */
@@ -540,6 +542,7 @@ p.about-text-category {
 }
 .futured-box-text-four-right {
   width:50%;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;/* 親に */
