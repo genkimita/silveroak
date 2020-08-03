@@ -304,7 +304,7 @@ content: ' ';
 }
 .visit-right-one {
   width:530px;
-  height:680px;
+  height:715px;
   /*  */
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-av-1.jpg);
   background-size: cover;
@@ -323,7 +323,7 @@ content: ' ';
   color:#ffffff;
 }
 .visit-right-text {
-  padding-top:480px;
+  padding-top:465px;
   padding-left:60px;
 }
 .visit-right-text-1 {
