@@ -1,682 +1,252 @@
-* {
-margin: 0px;
-padding: 0px;/* 要素同士の隙間を0に */
-box-sizing: border-box;/* スクロールの余白なし */
-}
-li {
-  list-style: none;
-}
+<!DOCTYPE html>
+<html>
 
- body {
-font-family:;/* 1ワードの場合は""は無し */
-width:100%;
-}
-
-.header {
-  width:100%;
-  height:120px;
-  background-color:black;
-  color:#ffffff;
-}
-.header-container {
-  width:100%;
-}
-.header-top {
-  width:100%;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-right:10px;
-  text-align: right;
-  display: flex;
-}
-.header-top-one {
-  width:15%;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  text-align: right;
-  /*  */
-  border-bottom:1px solid #ffffff;
-  border-right:1px solid #ffffff;
-}
-.header-top-two {
-  width:5%;
-  border-bottom:1px solid #ffffff;
-  border-right:1px solid #ffffff;
-  text-align: center;
-}
-.header-top-three {
-  width:60%;
-  border-bottom:1px solid #ffffff;
-  border-right:1px solid #ffffff;
-}
-.header-top-four {
-  width:5%;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 40px;
-  text-align: center;
-  /*  */
-  border-bottom:1px solid #ffffff;
-  border-right:1px solid #ffffff;
-}
-.header-top-five {
-  width:15%;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  text-align: left;
-  /*  */
-  border-bottom:1px solid #ffffff;
-}
-.header-bottom {
-  display: flex;
-}
-.header-bottom-logo {
-  width:20%;
-}
-.header-bottom-menu {
-  width:60%;
-  margin: 0 auto;
-}
-.header-bottom-menu-list {
-    display: flex;
-    width:20%;
-  }
-.header-bottom-menu-list li{
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-  }
+<head>
+<title>模写＠silveroak</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/responsive.css"><!-- viewport宣言より下に書く -->
+</head>
 
 
+ <body>
+
+   <div class="header">
+     <div class="header-container">
+       <div class="header-top">
+         <div class="headertop-one"><a>TWOMEY</a></div>
+         <div class="headertop-two"><a>TIMELESS</a></div>
+         <div class="headertop-three"><a>　</a></div>
+         <div class="headertop-four"><a>Account</a></div>
+         <div class="headertop-five"><a>Cart <span>0</span></a></div>
+       </div>
+       <div class="header-bottom">
+         <div class="header-bottom-logo">　</div>
+         <div class="header-bottom-menu">
+           <ul class="header-bottom-menu-list">
+             <li>Shop　▼</li>
+             <li>Visit　▼</li>
+             <li>Explore　▼</li>
+             <li>Food　▼</li>
+             <li>About　▼</li>
+             <li>Blog　▼</li>
+           </ul>
+         </div>
+         <div class="header-bottom-support">
+           <ul class="header-bottom-support-list">
+             <li>Subscribe</li>
+             <li>Help</li>
+             <li>Contact</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="top">
+     <div class="top-container">
+       <div class="top-container-text">
+        <p class="top-container-text-one">NEW RELEASE</p>
+        <p class="top-container-text-two">2016 Alexander</p>
+        <p class="top-container-text-three">Valley Cabernet</p>
+        <p class="top-container-text-four">Shop Now　　　></p>
+       </div>
+       <div class="top-container-menu">
+         <a>JOIN US</a><a>SHOP</a><a>TIMELESS</a>
+       </div>
+     </div>
+   </div>
+
+   <div class="product">
+     <div class="product-title-one"><p>TRIED AND TRUE SINCE 1972</p></div>
+     <div class="product-title-two"><p>California Cabernet Sauvignon Aged <br />Exclusively in American Oak</p></div>
+     <div class="product-detail">
+      <div class="product-detail-left">
+      </div>
+      <div class="product-detail-right">
+       <div class="product-detail-one"><p>ONLY AT SILVER OAK</p></div>
+       <div class="product-detail-two"><p>Shop Winery-Direct <br />Exclusives</p></div>
+       <div class="product-detail-three">
+         <ul class="product-detail-three-list">
+           <li>Shop the latest releases of Silver Oak Cabernet</li>
+           <li>Sauvignon, along with exclusive offers, rare and</li>
+           <li>limited edition wines, as well as the latest</li>
+           <li>merchandise from our tasting rooms.</li>
+         </ul>
+       </div>
+       <div class="product-detail-four"><p>Shop Now　→</p>
+       </div>
+      </div>
+     </div>
+   </div>
+
+<div class="visit">
+  <div class="visit-left">
+    <div class="visit-left-box">
+       <p class="visit-left-one">PLAN YOUR VISIT</p>
+       <p class="visit-left-two">Wine Country <br />Awaits</p>
+       <div class="visit-left-three">
+         <div class="visit-left-three-text">
+           <div class="visit-left-three-text-1"><p>OAKVILLE WINERY</p></div>
+           <div class="visit-left-three-text-2"><p>Napa Valley</p></div>
+           <div class="visit-left-three-text-3"><a>Visit Now　＞</a></div>
+         </div>
+       </div>
+    </div>
+  </div>
+  <div class="visit-right">
+    <div class="visit-right-one">
+      <div class="visit-right-text">
+        <div class="visit-right-text-1"><p>HEALDSBURG WINERY</p></div>
+        <div class="visit-right-text-2"><p>Alexander Valley</p></div>
+        <div class="visit-right-text-3"><a>Visit Now　＞</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="about">
+  <div class="about-box">
+    <div class="about-box-text">
+      <div class="about-box-text-one"><p>Grape to Glass</p></div>
+      <div class="about-box-text-two"><p>The Craft of Cabernet Sauvignon</p></div>
+      <div class="about-box-text-three"><p class="about-text-category">THE MAKING OF SILVER OAK</p></div>
+      <div class="about-box-text-four"><p class="about-text-category">Grapegrowing</p></div>
+      <div class="about-box-text-five"><p class="about-text-category">Winemaking</p></div>
+      <div class="about-box-text-six"><p class="about-text-category">American Oak</p></div>
+      <div class="about-box-text-seven"><p class="about-text-category">provenance</p></div>
+    </div>
+  </div>
+</div>
 
 
-.top {
-  width:100%;
-  height:920px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/top1.jpg) center / auto auto no-repeat;
-  background-size: cover;
-  position: relative;
-  /*  */
-  color:#ffffff;
-}
-.top::before {
-  background-color: rgba(0,0,0,0.3);
-  position: absolute;
-  top: 0;right: 0;bottom: 0;left: 0;
-  content: ' ';
-}
-.top-container {
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top:300px;
-}
-.top-container-text {
-  margin-left: 110px;
-  margin-bottom:120px;
-}
-.top-container-text-one {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  /*  */
-  padding-bottom:60px;
-}
-.top-container-text-two {
-  font-weight: 400;
-  font-size: 86px;
-  line-height: 103px;
-  /*  */
-  padding-bottom:30px;
-}
-.top-container-text-three {
-  font-weight: 400;
-  font-size: 86px;
-  line-height: 103px;
-  /*  */
-  padding-bottom:30px;
-}
-.top-container-text-four {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  /*  */
-  padding-bottom:30px;
-}
-.top-container-menu {
-  text-align: center;
-  border-top:2px solid #ffffff ;
-}
-.top-container-menu a{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  padding-left:190px;
-  padding-right:190px;
-}
+<div class="futured">
+  <div class="futured-box">
+    <div class="futured-box-text">
+      <div class="futured-box-text-one"><p>Featured Articles</p>
+      </div>
+      <!-- -box -->
+      <div class="futured-box-text-two">
+        <div class="futured-box-text-two-left">
+          <div class="futured-box-text-two-img">
+          </div>
+        </div>
+        <div class="futured-box-text-two-right">
+           <p class="futured-box-text-two-1">Wine Education</p>
+           <p class="futured-box-text-two-2">How to Keep Red Wine Cool on <br />Warm Summer Days</p>
+        </div>
+      </div>
+      <div class="futured-box-text-three">
+        <div class="futured-box-text-three-left">
+           <div class="futured-box-text-three-img">
+           </div>
+        </div>
+        <div class="futured-box-text-three-right">
+           <p class="futured-box-text-three-1">Behind the Scenes</p>
+           <p class="futured-box-text-three-2">The Science of Silver Oak</p>
+        </div>
+      </div>
+      <div class="futured-box-text-four">
+        <div class="futured-box-text-four-left">
+           <div class="futured-box-text-four-img">
+           </div>
+        </div>
+        <div class="futured-box-text-four-right">
+           <p class="futured-box-text-four-1">Wine Education</p>
+           <p class="futured-box-text-four-2">When to Drink Silver Oak: Our Recommendation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="explore">
+  <div class="explore-back-image">
+  <div class="explore-box">
+    <div class="explore-box-text">
+      <div class="explore-box-text-one"><p>EXPLORE SILVER OAK</p></div>
+      <div class="explore-box-text-two"><p>Let Us Fill Your <br />Glass with Joy</p></div>
+      <div class="explore-box-text-three"><p>Enjoy exclusive offers from our cellar and quench your thirst for wine knowledge <br />through our Cabernet Life community.</p></div>
+      <div class="explore-box-text-four"><a>Silver Oak – Exclusives & Announcements</a></div>
+      <div class="explore-box-text-five"><a>Cabernet Life – Wine Education & Recipes</a></div>
+      <div class="explore-box-text-six"><a>Twomey – All Things Pinot</a></div>
+      <div class="explore-box-text-seven"><a>Timeless – From the Family of Silver Oak, Coming Fall <br />2020</a></div>
+      <div class="explore-box-text-eight"><p>Enter your email address</p><input class=""></div>
+    </div>
+  </div>
+  </div>
+</div>
+
+ <div class="footer">
+   <div class="footer-box">
+   <div class="footer-left">
+     <div class="footer-left-one"><p>SILVEROAK</p></div>
+     <div class="footer-left-two">
+       <ul class="footer-left-two-list">
+         <li class="footer-valley">Silver Oak Napa Valley</li>
+         <li class="footer-valley-name">915 Oakville Cross Rd</li>
+         <li class="footer-valley-name">Oakville CA 94562</li>
+         <li class="footer-valley-name">(707) 942-7022</li>
+       </ul>
+     </div>
+     <div class="footer-left-three">
+       <ul class="footer-left-three-list">
+         <li class="footer-valley">Silver Oak Alexander Valley</li>
+         <li class="footer-valley-name">7300 Hwy 128</li>
+         <li class="footer-valley-name">Healdsburg CA 95448/li>
+         <li class="footer-valley-name">(707) 942-7082</li>
+       </ul>
+     </div>
+   </div>
+   <div class="footer-right">
+     <div class="footer-right-left">
+       <div class="footer-right-left-support">
+          <p class="footer-list-title">SUPPORT</p>
+           <ul class="footer-right-left-support-list">
+            <li class="footer-list-1">Contact</li>
+            <li class="footer-list-1">Customer Care</li>
+            <li class="footer-list-1">Shipping</li>
+            <li class="footer-list-1">Find Our Wines</li>
+            <li class="footer-list-1">Glossary</li>
+            <li class="footer-list-1">Privacy and Terms</li>
+            <li class="footer-list-1">Accessibility</li>
+           </ul>
+       </div>
+       <div class="footer-right-left-company">
+         <p class="footer-list-title">COMPANY</p>
+          <ul class="footer-right-left-company-list">
+            <li class="footer-list-1">About</li>
+            <li class="footer-list-1">People</li>
+            <li class="footer-list-1">Careers</li>
+          </ul>
+       </div>
+      </div>
+      <div class="footer-right-right-trade">
+        <p class="footer-list-title">TRADE & PRESS</p>
+        <ul class="footer-right-right-trade-list">
+          <li class="footer-list-1">Trade and Press</li>
+          <li class="footer-list-1">Sales Team</li>
+          <li class="footer-list-1">Importers</li>
+          <li class="footer-list-1">Distributors</li>
+          <li class="footer-list-1">Download Center</li>
+          <li class="footer-list-1">In the News</li>
+        </ul>
+     </div>
+   </div>
+   </div>
+  </div>
 
 
+ <div class="copyright">
+   <div class="copyright-box">
+     <a class="copyright-box-one">SILVEROAK | TWOMEY | OVID | TIMELESS</a>
+     <a class="copyright-box-two" >Copyright © 2020 Silver Oak Cellars. All Rights Reserved</a>
+     <a class="copyright-box-three" >Follow Us</a>
+   </div>
+ </div>
 
-.product {
-  width:100%;
-}
-.product-title-one {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  color:rgb(126, 126, 126);
-  /*  */
-  width:75%;
-  margin: 0 auto;
-  padding-top:120px;
-  padding-bottom:60px;
-}
-.product-title-two {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 68px;
-  color:rgb(32, 34, 37);
-  /*  */
-  width:75%;
-  margin: 0 auto;
-}
-.product-detail {
-  width:80%;
-  height:1000px;
-  margin: 0 auto;
-  /*  */
-  background-color:rgb(242, 240, 236);
-  vertical-align: bottom;
-}
-.product-detail-left {
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/shop-silver-oak-wines-2016-alex.png);
-  background-size: cover;
-}
-.product-detail-right {
-  width:40%;
-  float:right;
-}
-.product-detail-one {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  color:rgb(131, 131, 131);
-  /*  */
-  margin-bottom:60px;
-}
-.product-detail-two {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 68px;
-  color:rgb(0, 0, 0);
-  /*  */
-  margin-bottom:45px;
-}
-.product-detail-three {
-  margin-bottom:40px;
-}
-.product-detail-three-list {}
-.product-detail-three-list li{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-  color:rgb(131, 131, 131);
-}
-.product-detail-four {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 14px;
-  color:rgb(0, 0, 0);
-}
-
-
-
-.visit {
-  height:1180px;
-  display: flex;
-}
-.visit-left {
-  width:50%;
-}
-.visit-left-box {
-  width:550px;
-  float:right;
-}
-.visit-left-one {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  color:rgb(126, 126, 126);
-  /*  */
-  margin-top:170px;
-  margin-bottom:60px;
-}
-.visit-left-two {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 68px;
-  /*  */
-  margin-bottom:70px;
-}
-.visit-left-three {
-  width:550px;
-  height:730px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-oakville.jpg);
-  background-size: cover;
-  position: relative;
-}
-.visit-left-three::before {
-background-color: rgba(0,0,0,0.4);/* くろすけ */
-position: absolute;
-top: 0;right: 0;bottom: 0;left: 0;
-content: ' ';
-}
-.visit-left-three-text p,.visit-left-three-text a{
-  color:#ffffff;
-}
-.visit-left-three-text {
-  padding-top:480px;
-  padding-left:60px;
-}
-.visit-left-three-text-1 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  /*  */
-  margin-bottom:55px;
-}
-.visit-left-three-text-2 {
-  font-weight: 400;
-  font-size: 37px;
-  line-height: 50px;
-  /*  */
-  margin-bottom:25px;
-}
-.visit-left-three-text-3 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-}
-.visit-right {
-  width:50%;
-}
-.visit-right-one {
-  width:530px;
-  height:715px;
-  /*  */
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-av-1.jpg);
-  background-size: cover;
-  position: relative;
-  /*  */
-  top: 350px;
-  left: 20px;
-}
-.visit-right-one::before {
-background-color: rgba(0,0,0,0.4);/* くろすけ */
-position: absolute;
-top: 0;right: 0;bottom: 0;left: 0;
-content: ' ';
-}
-.visit-right-text p,.visit-right-text a{
-  color:#ffffff;
-}
-.visit-right-text {
-  padding-top:465px;
-  padding-left:60px;
-}
-.visit-right-text-1 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  /*  */
-  margin-bottom:55px;
-}
-.visit-right-text-2 {
-  font-weight: 400;
-  font-size: 37px;
-  line-height: 50px;
-  /*  */
-  margin-bottom:25px;
-}
-.visit-right-text-3 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-}
-
-
-
-.about {
-  width:100%;
-}
-.about-box {
-  width:1320px;
-  height:1135px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/g2g-menu-night-harvest-650x650.jpg);
-  background-size: cover;
-  margin: 0 auto;
-  margin-top:175px;
-  margin-bottom:175px;
-}
-.about-box-text {
-  width:66.666%;
-  margin: 0 auto;
-  /*  */
-  color:#ffffff;
-  padding-top:170px;
-}
-.about-box-text-one {
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 58px;
-
-}
-.about-box-text-two {
-  font-weight: 200;
-  font-size: 44px;
-  line-height: 58px;
-  font-family:"GT Super Display";
-  /*  */
-  padding-bottom:100px;
-}
-.about-box-text-three {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  /*  */
-  height:30px;
-  border-bottom:1px solid rgb(158, 146, 147) ;
-}
-.about-box-text-four {
-  height:140px;
-  border-bottom:1px solid rgb(158, 146, 147) ;
-}
-.about-box-text-five {
-  height:140px;
-}
-.about-box-text-six {
-  height:140px;
-  border-bottom:1px solid rgb(158, 146, 147) ;
-}
-.about-box-text-seven {
-  height:140px;
-  border-bottom:1px solid rgb(158, 146, 147) ;
-}
-p.about-text-category {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-}
-
-
-
-.futured {
-  height:1255px;
-}
-.futured-box {
-  width:1320px;
-  margin: 0 auto;
-  margin-bottom:120px;
-}
-.futured-box-text-one {
-  font-weight: 400;
-  font-size: 37px;
-  line-height: 50px;
-  /*  */
-  padding-bottom:60px;
-  border-bottom:1px solid rgb(216, 215, 214) ;
-}
-.futured-box-text-two {
-  height:285px;
-  display: flex;
-  border-bottom:1px solid rgb(216, 215, 214) ;
-}
-.futured-box-text-two-left {
-  width:50%;
-}
-.futured-box-text-two-img {
-  width:425px;
-  height:285px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-summer-dock-600x400.jpg);
-  background-size: cover;
-}
-.futured-box-text-two-right {
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 親に */
-}
-.futured-box-text-two-1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-.futured-box-text-two-2 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-.futured-box-text-three {
-  height:285px;
-  display: flex;
-  border-bottom:1px solid rgb(216, 215, 214) ;
-}
-.futured-box-text-three-left {
-  width:50%;
-}
-.futured-box-text-three-img{
-  width:425px;
-  height:285px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-lab-beeker-600x400.jpg);
-  background-size: cover;
-}
-.futured-box-text-three-right {
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 親に */
-}
-.futured-box-text-three-1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-.futured-box-text-three-2 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-.futured-box-text-four {
-  height:285px;
-  display: flex;
-  border-bottom:1px solid rgb(216, 215, 214) ;
-}
-.futured-box-text-four-left {
-  width:50%;
-}
-.futured-box-text-four-img {
-  width:425px;
-  height:285px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-magnums-600x400.jpg);
-  background-size: cover;
-}
-.futured-box-text-four-right {
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 親に */
-}
-.futured-box-text-four-1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-.futured-box-text-four-2 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  vertical-align : middle;
-}
-
-
-.explore {
-  width:100%;
-  height:840px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
-  background-size: cover;
-  /*  */
-}
-.explore-back-image {
-  display:table;
-}
-.explore-box {
-  background-color:#ffffff;
-  width:670px;
-  height:605px;
-  /*  */
-  display: table-cell;
-  vertical-align : middle;
-  /*  */
-  padding-left:130px;
-  margin-left: 180px;
-}
-.explore-box-text-three {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-}
-.explore-box-text-one {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-}
-.explore-box-text-two {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 68px;
-}
-.explore-box-text-three {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-}
-.explore-box-text-four {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-}
-.explore-box-text-five {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-}
-.explore-box-text-six {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-}
-.explore-box-text-seven {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-}
-.explore-box-text-eight {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 31px;
-}
-
-
-
-.footer {
-  height:535px;
-  background-color:rgb(0, 0, 0);
-}
-.footer-box {
-  width:66%;
-  margin: 0 auto;
-  display: flex;
-}
-.footer-left {
-  width:50%;
-}
-.footer-left-one {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-}
-.footer-left-two-list li{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-}
-.footer-left-three-list li{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-}
-li.footer-valley {
-  color:#ffffff;
-}
-li.footer-valley-name {
-  color:rgb(128, 128, 128);
-}　
-.footer-right {
-  width:50%;
-  display: flex;
-}
-p.footer-list-title{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color:#ffffff;
-}
-li.footer-list-1{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color:#ffffff;
-}
-
-
-
-
-
-
-.copyright {
-  width:100%;
-  background-color:rgb(21, 21, 21);
-}
-.copyright-box {
-  width:66%;
-  margin: 0 auto;
-  text-align: center;
-}
-.copyright-box a{
-  color:rgb(150, 150, 150);
-}
-.copyright-box-one {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-}
-.copyright-box-two {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 18px;
-}
-.copyright-box-three {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 18px;
-}
+ </body>
 
 
 
@@ -688,10 +258,4 @@ li.footer-list-1{
 
 
 
-
-
-
-
-
-
-/*  */
+</html>
