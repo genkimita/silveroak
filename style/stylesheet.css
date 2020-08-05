@@ -187,9 +187,12 @@ width:100%;
   background-color:rgb(242, 240, 236);
   vertical-align : bottom;
 }
-.product-detail-left {
+.product-detail-left-image {
+  width:100%;
+  height:100%;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/shop-silver-oak-wines-2016-alex.png);
   background-size: cover;
+  object-fit: cover;
 }
 .product-detail-right {
   width:40%;
