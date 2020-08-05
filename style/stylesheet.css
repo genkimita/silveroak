@@ -265,11 +265,9 @@ width:100%;
   background-size: cover;
   position: relative;
 }
-.visit-left-three::before {
-background-color: rgba(0,0,0,0.4);/* くろすけ */
-position: absolute;
-top: 0;right: 0;bottom: 0;left: 0;
-content: ' ';
+.visit-left-three-opacity {
+  background: rgba(0,0,0,.4);
+  height:100%;
 }
 .visit-left-three-text p,.visit-left-three-text a{
   color:#ffffff;
@@ -311,11 +309,9 @@ content: ' ';
   top: 350px;
   left: 20px;
 }
-.visit-right-one::before {
-background-color: rgba(0,0,0,0.4);/* くろすけ */
-position: absolute;
-top: 0;right: 0;bottom: 0;left: 0;
-content: ' ';
+.visit-right-one-opacity {
+  background: rgba(0,0,0,.4);
+  height:100%;
 }
 .visit-right-text p,.visit-right-text a{
   color:#ffffff;
