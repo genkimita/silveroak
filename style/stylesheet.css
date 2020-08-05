@@ -569,9 +569,7 @@ p.about-text-category {
   /*  */
 }
 .explore-back-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;/* 親に */
+  width:100%;
 }
 .explore-box {
   background-color:#ffffff;
@@ -579,6 +577,7 @@ p.about-text-category {
   height:605px;
   /*  */
   padding-left:130px;
+  margin-top:115px;
   margin-left: 180px;
 }
 .explore-box-text-one {
