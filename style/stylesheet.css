@@ -195,6 +195,7 @@ width:100%;
 .product-detail-right {
   width:40%;
   padding-bottom:200px;
+  float:left;
 }
 .product-detail-one {
   font-weight: 500;
