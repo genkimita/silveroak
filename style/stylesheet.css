@@ -418,7 +418,7 @@ width:100%;
 .utured-box-text-two-img {
   width:425px;
   height:285px;
-  transition-duration: 0.5s; /*変化の時間*/
+  transition-duration: 1.0s; /*変化の時間*/
 }
 .futured-box-text-two-img:hover {
   transform: scale(1.2,1.2); /*画像の拡大*/
