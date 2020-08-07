@@ -4,7 +4,9 @@ $(function(){
   $(window).on('scroll',function(){
       winScrollTop = $(this).scrollTop();
       if (winScrollTop >= startPos) {
-          $('.site-header').addClass('hide');
+        if(winScrollTop >= 200){
+           $('.site-header').addClass('hide');
+       }
       } else {
           $('.site-header').removeClass('hide');
       }
