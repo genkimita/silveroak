@@ -418,12 +418,13 @@ width:100%;
 .utured-box-text-two-img {
   width:425px;
   height:285px;
-  transition: all 1.0s
+  transform: scale(1.0,1.0);
+  transition: 1.0s
 }
 .futured-box-text-two-img:hover {
-  transform: scale(1.2,1.2); /*画像の拡大*/
-  transition: all 1.0s;
-　cursor: pointer; /*カーソルをポインターにする*/
+  transform: scale(1.2,1.2);
+  transition: 1.0s;
+  cursor:pointer;
 }
 .futured-box-text-two-right {
   width:50%;
