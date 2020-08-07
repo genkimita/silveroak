@@ -418,7 +418,6 @@ width:100%;
 .utured-box-text-two-img {
   width:425px;
   height:285px;
-  transform: scale(1.0,1.0);
   transition: 1.0s;
 }
 .futured-box-text-two-img:hover {
