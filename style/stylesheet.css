@@ -419,7 +419,7 @@ width:100%;
   width:425px;
   height:285px;
   transform: scale(1.0,1.0);
-  transition: 1.0s
+  transition: 1.0s;
 }
 .futured-box-text-two-img:hover {
   transform: scale(1.2,1.2);
