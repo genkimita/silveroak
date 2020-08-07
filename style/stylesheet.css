@@ -410,11 +410,19 @@ width:100%;
 .futured-box-text-two-left {
   width:50%;
 }
-.futured-box-text-two-img {
+.futured-box-text-two-img-box {
   width:425px;
   height:285px;
-  background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/blog-silver-oak-summer-dock-600x400.jpg);
-  background-size: cover;
+  overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
+}
+.utured-box-text-two-img {
+  width:425px;
+  height:285px;
+  transition-duration: 0.5s; /*変化の時間*/
+}
+.futured-box-text-two-img:hover {
+  transform: scale(1.2,1.2); /*画像の拡大*/
+　cursor: pointer; /*カーソルをポインターにする*/
 }
 .futured-box-text-two-right {
   width:50%;
