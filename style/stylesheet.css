@@ -510,10 +510,7 @@ width:100%;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/sign-up-silver-oak-2016-alex-600x400.jpg);
   background-size: cover;
   /*  */
-}
-.explore-back-image {
-  width:100%;
-  height:840px;
+  padding-top:115px;
 }
 .explore-box {
   background-color:#ffffff;
@@ -521,7 +518,6 @@ width:100%;
   height:605px;
   /*  */
   padding-left:130px;
-  margin-top:115px;
   margin-left: 180px;
 }
 .explore-box-text-one {
