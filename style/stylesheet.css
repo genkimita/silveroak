@@ -205,10 +205,15 @@ width:100%;
   background: url(https://raw.githubusercontent.com/genkimita/silveroak/master/image/home-visit-oakville.jpg);
   background-size: cover;
   position: relative;
+  transition: all 0.5s;
 }
 .visit-left-three-opacity {
   background: rgba(0,0,0,.4);
   height:100%;
+}
+.visit-left-three:hover {
+  transform: scale(1.2,1.2);
+  transition: all 0.5s;
 }
 .visit-left-three-text p,.visit-left-three-text a{
   color:#ffffff;
