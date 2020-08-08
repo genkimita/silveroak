@@ -206,6 +206,7 @@ width:100%;
   background-size: cover;
   position: relative;
   transition: all 0.5s;
+  overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
 }
 .visit-left-three-opacity {
   background: rgba(0,0,0,.4);
