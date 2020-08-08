@@ -120,7 +120,7 @@ width:100%;
 }
 .product-detail {
   width:100%;
-  height:815px;
+  height:1000px;
   position: relative;
   overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
 }
@@ -135,9 +135,10 @@ width:100%;
 .product-detail-box {
   width:80%;
   height:815px;
-  margin: 0 auto;
-  /*  */
   background-color:rgb(242, 240, 236);
+  /*  */
+  margin: 0 auto;
+  margin-top:185px;
 }
 .product-detail-right {
   width:40%;
